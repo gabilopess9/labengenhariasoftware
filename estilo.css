@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #C0262C;
+	padding: 8px;
+	
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	align-items: center;
+	padding: 20px;
+	font-size: 20px;
+	background-color: black;
+}
+
+a {
+	color: white;
+	/*color: #C0262C;*/
+}
+
+.center {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+

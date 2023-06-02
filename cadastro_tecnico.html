@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cadastro do técnico</title>
+<script src="html5shiv.min.js"></script>
+<link href="principal.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body id="fastrepairr">
+
+
+
+<main>
+
+<h1> Cadastro do Técnico </h1>
+
+
+<form method="post" id="contato" action="cadastro_tecnico.php">
+
+<fieldset id="ident_tecnico"> 
+<legend> Identificação do Técnico </legend>
+
+<p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" size = "50" maxlength="100" placeholder="Digite seu nome completo"/></p>
+
+<p><label for="CPF">CPF:</label> <input type="text" name="cpf" id="cpf"  size = "10" maxlength="14" placeholder="XXX.XXX.XXX-XX"/></p>
+
+<p><label for="email">Email:</label> <input type="email" name="email" id="email" size = "80" maxlength="60" placeholder="Digite o endereço de email"> </p> 
+
+<p><label for="tel">Tel/Cel:</label> <input type="text" name="tel" id="tel" size = "12" maxlength="13" placeholder="99 99999-9999"/></p>
+
+<p>Data de nascimento:
+<input type="date" name="Pdata" id="Pdata"></p>
+
+
+<p>Selecione os serviços que você realiza:</p><br>
+<ul>
+<input type="checkbox" id="servico1" name="servico1" value="sim">
+<label for="servico1">Manutenção e instalação de eletronicos</label>
+<br><br><br>
+<input type="checkbox" id="servico2" name="servico2" value="sim">
+<label for="servico2">Pinturas</label>
+<br><br><br>
+<input type="checkbox" id="servico3" name="servico3" value="sim">
+<label for="servico3">Remoção de mofo em paredes e móveis</label>
+<br><br><br>
+<input type="checkbox" id="servico4" name="servico4" value="sim">
+<label for="servico4">Desentupimento de ralos, pias e privadas</label>
+<br><br><br>
+<input type="checkbox" id="servico5" name="servico5" value="sim">
+<label for="servico5">Instalação e troca de fiação</label>
+</ul>
+</fieldset>
+
+<input type="submit" value="Enviar">
+
+
+</form>
+
+</main>
+
+</body>
+</html>
